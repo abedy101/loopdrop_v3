@@ -1,0 +1,13 @@
+{
+  "plugins": {
+    "cron": {
+      "tasks": [
+        {
+          "name": "Run bot every 5 min",
+          "schedule": "*/5 * * * *",
+          "command": "python bot/loopdrop_bot.py"
+        }
+      ]
+    }
+  }
+}
